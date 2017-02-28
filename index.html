@@ -7,6 +7,20 @@
   <title>Document</title>
 </head>
 <body>
+  <h1>CALCULO DEL INDICE DE MASA CORPORAL</h1>
+    <p>Peso en kg.:<!--definimos una caja donde introducir el dato del peso-->
+   <input type="text" name="peso" id="peso" size="6" maxlength="4">
+   </p>
+   <p>Altura en cm.:<!--definimos una caja donde introducir el dato de la altura-->
+   <input type="text" name="altura" id="altura" size="3" maxlength="3">
+  <!--definimos un boton que hara la llamada a la funcion para calcular el imc-->
+   <input type="button" value="Calcular IMC" onClick="calcImc()">
+   </p>
+   <p> IMC:<!--definimos una caja donde la funcion devolvera el valor de imc calculado-->
+   <input type="text" name="imc" id="imc" size="10" maxlength="15">
+   Leyenda:<!--definimos una caja donde la funcion escribira el comentario, definido en leyenda-->
+   <input type="text" name="leyenda" id="leyenda" size="30">
+   </p>
   <script src="js/main.js"></script>
 </body>
 </html>
