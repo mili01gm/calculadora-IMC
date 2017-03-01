@@ -7,6 +7,16 @@
   <title>Document</title>
 </head>
 <body>
+  <h1 align="center">Calculadora IMC</h1>
+  <form action="" align="center">
+    <label for="peso">Su peso en kilos:</label><br>
+    <input type="text" id="peso" placeholder="57.65"  autofocus required><br>
+    <label for="altura">Su altura en metros:</label><br>
+    <input type="text" id="altura" placeholder="1.77" required><br><br>
+    <input type="button" onclick="calcImc(); return false;" value="Calcular"><br><br>
+    <label for="resultado">Su IMC es:</label><br>
+    <input type="text" id="result" size="3px" align="center">
+  </form>
   <script src="js/main.js"></script>
 </body>
 </html>
